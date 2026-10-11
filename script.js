@@ -1,12 +1,11 @@
-let element = createElement(task
-const div= document.queryselector("#add-btn");
-const div= document.queryselector("#text");
-const div= document.queryselector("#list");
+const Task = document.createElement("li");
+
+const bullet = document.getElementById("#tasks");
+const button = document.getElementById("#add-btn");
+const li = document.getElementById("#list");
 function addOne() {
-    list = list +1;
-    text.textcontent= list;
-    if (list >=) {
-        list.textcontent 
-    }
+    Task = Task + 1;
+    li.textContent = "Task";
 }
-button.addOne("click")
+button.addEventListener("click", addOne);
+li.appendChild("Task");
